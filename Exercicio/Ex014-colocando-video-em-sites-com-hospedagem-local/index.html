@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+
+    <video width="500" poster="midia/ceu estrelado.webp" controls loop>
+        <source src="video/ceu2.mp4" type="video/mp4">
+        <source src="video/ceu2.m4v" type="video/m4v">
+        <source src="video/ceu2.webm" type="video/webm">
+        <source src="video/ceu2/ogv" type="video/ogv">
+        <!--comando usado para adicionar diferentes versões da mesma midia, como OGV, MP4, M4V, etc...-->
+        <p>Seu navegador não é capaz de reproduzir esse video.</p>
+    </video>
+<br>
+    <h1>Inserindo videos do Youtube</h1>
+    <p>Este video esta inserido no servidor do YouTube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/LW0bhKitRBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<br>
+    <h1>Inserindo video do vimeo</h1>
+    <p>Este video esta inserido no servidor do Vimeo.</p>
+    <p id="img"><iframe src="https://player.vimeo.com/video/197817555?h=9edaaea4cf&color=ff9933&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></p>
+
+</body>
+</html>

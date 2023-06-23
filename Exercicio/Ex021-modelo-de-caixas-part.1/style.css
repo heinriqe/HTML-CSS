@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: rgb(255, 0, 0);
+    padding: 3px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(85, 85, 85);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#Esportes {
+    background-color: rgb(137, 215, 241);
+    padding: 5px;
+    border-radius: 70px 10px 70px 10px;
+    box-shadow: 5.5px -0.5px 20px -9px black;
+}
+#noticias {
+    background-color: rgb(143, 214, 143);
+    padding: 5px;
+    border-radius: 10px 70px 10px 70px;
+    box-shadow: -5.5px 4.5px 20px -9px black;
+}
+
+article > aside {
+    background-color: rgb(165, 165, 165);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p {
+    margin: 0px;
+}
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}

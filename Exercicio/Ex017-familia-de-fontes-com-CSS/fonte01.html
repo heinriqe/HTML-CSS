@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            /*Medidas absolutas: cm (centimetros), mm (milimetro), in (polegada), px (pixel), pt (ponto), pc (paica); 
+            16px geralmente = 1em
+            
+            Medidas relativas: em (relativa ao tamnho atual da fonte), ex (relativa a altura X de uma fonte), rem (relativa a fonte configurada no body), vw (largura da viweport), vh (altura da viewport), %
+            */
+            font-size: 1.2em;
+            font-weight: bolder;
+            /* Lighter, normal, bold, bolder */
+            /*tambem é possivel usar numeração para mexer no font-weidth, vai de 100 até 900*/
+            font-style: italic;
+            text-decoration: underline;
+            background-color: black;
+        }
+        h1, h2, p {
+            color: white;
+        }
+        h1 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font
+            
+            ordem de uso:
+            - font-style
+            - font weight
+            - font-size
+            - font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans',sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti explicabo architecto ut labore doloribus numquam, quo, eveniet distinctio perferendis aspernatur voluptas facere alias? At deleniti explicabo ab non? Voluptas, pariatur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias labore repellat rerum nam adipisci modi aspernatur distinctio odio repudiandae ad, deserunt unde placeat sunt vel, commodi quae non culpa doloribus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque quos placeat id error libero, rerum voluptatem, voluptatibus consequuntur illo omnis delectus nisi porro nemo consequatur fugit et, perspiciatis architecto dolorum!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis sapiente fuga vero? Deleniti sed incidunt exercitationem vel beatae asperiores laborum eligendi, aliquam dolorem necessitatibus aut natus, reiciendis minus maiores! Consequatur.</p>
+</body>
+</html>
