@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media queries</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptas incidunt aut quam sed dignissimos architecto impedit, ducimus minima velit, beatae, ipsum numquam assumenda quasi illo ipsam earum corrupti tenetur!
+            Facilis debitis ipsam autem maiores consectetur, perspiciatis, ex, itaque voluptas asperiores illum ipsum libero incidunt reprehenderit earum quibusdam quis dolorem quidem ipsa. Optio accusantium at qui consequatur assumenda accusamus rerum!</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi iusto sequi ipsam. Dolores itaque asperiores nihil error culpa quidem et, aut totam facere sint enim? Autem magni quo nobis dicta! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis dignissimos ipsam adipisci vero! Non ipsum labore saepe commodi delectus vel voluptatem quia voluptatum rerum deserunt distinctio in aut, cum incidunt!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut facere aut animi culpa doloribus vel aperiam cumque amet commodi voluptate dolor, quisquam et voluptatum consequatur mollitia distinctio ipsa, numquam doloremque!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu () {
+            if (itens.style.display == "block") {
+                itens.style.display = 'none'
+            } 
+            else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
