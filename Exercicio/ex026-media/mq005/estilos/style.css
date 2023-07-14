@@ -29,7 +29,7 @@ i#burguer {
 }
 
 i#burguer:hover {
-    background-color: white;
+    background-color: rgb(148, 148, 148);
     color: black;
 }
 
